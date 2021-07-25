@@ -1,3 +1,5 @@
+- [end](#end)
+
 # 見出し1
 ## 見出し2
 ### 見出し3
@@ -48,14 +50,16 @@
 インストール方法 : `install markdown`
 ```
 
-1. *123 abc* _斜体で強調される_
-2. **123 abc あかさ** __太字で強調される(日本語含む)__
-3. ***123 abc*** ___斜体と太字で強調される___
+*123 abc* _斜体で強調される_  
+**123 abc** __太字で強調される__  
+***123 abc*** ___斜体と太字で強調される___  
+~~取り消し線~~  
 
 ```
-1. *123 abc* _斜体で強調される_
-2. **123 abc あかさ** __太字で強調される(日本語含む)__
-3. ***123 abc*** ___斜体と太字で強調される___
+*123 abc* _斜体で強調される_  
+**123 abc あかさ** __太字で強調される(日本語含む)__  
+***123 abc*** ___斜体と太字で強調される___  
+~~取り消し線~~  
 ```
 
 ***
@@ -69,3 +73,43 @@ ___
 ___ 
 * * *
 ```
+
+https://www.google.co.jp/  
+[Google](https://www.google.co.jp/)  
+
+```
+https://www.google.co.jp/  
+[Google](https://www.google.co.jp/)  
+```
+
+```Java
+class Hello{
+    public static void main(String[] args) {
+        System.out.println("Hello World");        
+    }
+}
+```
+
+~~~
+```Java
+class Hello{
+    public static void main(String[] args) {
+        System.out.println("Hello World");        
+    }
+}
+```
+~~~
+
+| HeaderA | HeaderB | HeaderC |
+| :-- | :--: | --: |
+| 左寄せ | 中央寄せ | 右寄せ |
+| A | B | C |
+
+```
+| HeaderA | HeaderB | HeaderC |
+| :-- | :--: | --: |
+| 左寄せ | 中央寄せ | 右寄せ |
+| A | B | C |
+```
+
+# end
