@@ -1,5 +1,3 @@
-- [end](#end)
-
 # 見出し1
 ## 見出し2
 ### 見出し3
@@ -62,6 +60,18 @@
 ~~取り消し線~~  
 ```
 
+<details>
+  <summary>Openrec</summary>
+  https://www.openrec.tv/
+</details>
+
+```
+<details>
+  <summary>Openrec</summary>
+  https://www.openrec.tv/
+</details>
+```
+
 ***
 ---
 ___
@@ -111,5 +121,3 @@ class Hello{
 | 左寄せ | 中央寄せ | 右寄せ |
 | A | B | C |
 ```
-
-# end
