@@ -1,8 +1,10 @@
 # 目次
 1. [見出し](#見出し1)
-2. [リスト](#リスト)
-3. [表](#表)
-4. [pre記法](#pre記法)
+1. [リスト](#リスト)
+1. [表](#表)
+1. [pre記法](#pre記法)
+1. [code記法](#code記法)
+1. [引用](#引用)
 
 # 見出し1
 ## 見出し2
@@ -73,19 +75,27 @@ class Hello {
 ```
 ~~~
 
-> 引用 : https://
->> Hello World!!
-
-```
-> 引用 : https://
->> Hello World!!
-```
-
+## code記法
 インストール方法 : `install markdown`
 
 ```
 インストール方法 : `install markdown`
 ```
+
+## 引用
+> Google  
+> https://www.google.co.jp/
+>> Youtube  
+>> https://www.youtube.com/
+
+```
+> Google  
+> https://www.google.co.jp/
+>> Youtube  
+>> https://www.youtube.com/
+```
+
+
 
 *123 abc* _斜体で強調される_  
 **123 abc** __太字で強調される__  
