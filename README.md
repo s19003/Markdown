@@ -1,6 +1,8 @@
 # 目次
-### 1. [見出しの作成](#見出し1)
-### 1. [リストの作成](#リスト)
+1. [見出し](#見出し1)
+2. [リスト](#リスト)
+3. [表](#表)
+4. [pre記法](#pre記法)
 
 # 見出し1
 ## 見出し2
@@ -17,26 +19,59 @@
 ##### 見出し5
 ###### 見出し6
 ```
-
+ 
+## リスト
 - A
-  - A_A
-    - A_A_A
+  - A_B
+    - A_B_C
 
 ```
 - A
-  - A_A
-    - A_A_A
+  - A_B
+    - A_B_C
 ```
 
 1. A
-    1. A_A
-        1. A_A_A
+    1. A_B
+        1. A_B_C
 
 ```
 1. A
-    1. A_A
-        1. A_A_A
+    1. A_B
+        1. A_B_C
 ```
+
+## 表
+| HeaderA | HeaderB | HeaderC |
+| :-- | :--: | --: |
+| 左寄せ | 中央寄せ | 右寄せ |
+| A | B | C |
+
+```
+| HeaderA | HeaderB | HeaderC |
+| :-- | :--: | --: |
+| 左寄せ | 中央寄せ | 右寄せ |
+| A | B | C |
+```
+
+## pre記法
+```Java
+class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World");        
+    }
+}
+```
+
+~~~
+```Java
+class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World");        
+    }
+}
+```
+~~~
 
 > 引用 : https://
 >> Hello World!!
@@ -96,32 +131,5 @@ https://www.google.co.jp/
 [Google](https://www.google.co.jp/)  
 ```
 
-```Java
-class Hello{
-    public static void main(String[] args) {
-        System.out.println("Hello World");        
-    }
-}
-```
 
-~~~
-```Java
-class Hello{
-    public static void main(String[] args) {
-        System.out.println("Hello World");        
-    }
-}
-```
-~~~
 
-| HeaderA | HeaderB | HeaderC |
-| :-- | :--: | --: |
-| 左寄せ | 中央寄せ | 右寄せ |
-| A | B | C |
-
-```
-| HeaderA | HeaderB | HeaderC |
-| :-- | :--: | --: |
-| 左寄せ | 中央寄せ | 右寄せ |
-| A | B | C |
-```
