@@ -95,6 +95,15 @@ class Hello {
 >> https://www.youtube.com/
 ```
 
+## リンク
+https://www.google.co.jp/  
+[Google](https://www.google.co.jp/)  
+
+```
+https://www.google.co.jp/  
+[Google](https://www.google.co.jp/)  
+```
+
 ## 折りたたみ
 <details>
   <summary>Openrec</summary>
@@ -119,28 +128,5 @@ class Hello {
 ***123 abc*** ___斜体と太字で強調される___  
 ~~取り消し線~~  
 ```
-
-
-
-***
----
-___
-* * *
-
-```
-*** 
----
-___ 
-* * *
-```
-
-https://www.google.co.jp/  
-[Google](https://www.google.co.jp/)  
-
-```
-https://www.google.co.jp/  
-[Google](https://www.google.co.jp/)  
-```
-
 
 
