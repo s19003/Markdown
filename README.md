@@ -95,7 +95,18 @@ class Hello {
 >> https://www.youtube.com/
 ```
 
+## 折りたたみ
+<details>
+  <summary>Openrec</summary>
+  https://www.openrec.tv/
+</details>
 
+```
+<details>
+  <summary>Openrec</summary>
+  https://www.openrec.tv/
+</details>
+```
 
 *123 abc* _斜体で強調される_  
 **123 abc** __太字で強調される__  
@@ -109,17 +120,7 @@ class Hello {
 ~~取り消し線~~  
 ```
 
-<details>
-  <summary>Openrec</summary>
-  https://www.openrec.tv/
-</details>
 
-```
-<details>
-  <summary>Openrec</summary>
-  https://www.openrec.tv/
-</details>
-```
 
 ***
 ---
